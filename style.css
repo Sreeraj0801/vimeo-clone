@@ -1,0 +1,631 @@
+.header
+{
+    background-color: rgba(0, 0, 0, .8);
+    border: none;
+    width: 100%;
+    height: 70px;
+    color: #000;
+
+    position:fixed;
+
+
+
+}
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+.logo-section
+{
+    width: 46.9%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    padding-left: 40px;
+    padding-top: 15px;
+    align-items: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(255 255 255);
+    float: left;
+    padding-bottom: 15px;
+    
+}
+
+
+.login-section
+{
+  display: flex;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(255 255 255);
+  padding-left: 352px;
+  padding-right: 15px;
+  padding-top: 15px;
+  justify-content:space-around;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(255 255 255);
+  align-items: center;
+  padding-bottom: 15px;
+
+}
+
+.video-button
+{
+  height: 39px;
+  width: 130px;
+  padding: 0;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  border:  0.25px solid white;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+.join-button
+{
+    height:39px;
+    width: 70px;
+    border-radius: 3px;
+    padding: 0;
+    border: none;
+    border:  0.25px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+
+
+}
+
+.down-arrow
+{
+    height: 7.5px;
+    padding-left: 4px;
+}
+.new-video-arrow
+{
+    height: 11px;
+    padding-left: 2px;
+    
+    
+}
+
+.body1
+{
+    background-color: rgb(19, 18, 18);
+    width: 100%;
+    padding-top: 140px;
+    margin-bottom: 10px;
+
+}
+.text1
+{
+    color:rgb(251, 113, 69);
+    font-weight:450;
+    text-decoration:none solid rgb(251, 113, 69);
+    text-align: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-top: 90px;
+    font-size: 84.4px;
+    font-weight: 470;
+    
+}
+
+.text2
+{
+color: white;
+padding-left: 556px;
+padding-top: 10px;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 81px;
+font-weight: 470;
+
+}
+.bottom-button
+{
+    width: 50%;
+    padding-left: 530px;
+    padding-top: 40px;
+    padding-bottom: 96px;
+}
+.button1
+{
+    height: 86PX;
+    width: 200PX;
+    border-radius: 19PX;
+    background-color:RGB(38, 185, 241);
+    font-size: 23px;
+    font-weight: 400;
+    float: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button2
+{
+    height: 85.5PX;
+    width: 212PX;
+    border-radius: 19PX;
+    font-size:23px;
+    font-weight: 400;
+    margin-left: 19px;
+    border: none;
+    border:  2px solid white;
+    background-color: transparent;
+    color: white;           
+    cursor: pointer;
+}
+
+.body2
+{
+    
+    background-color:#fff8f2;
+    
+}
+.video1
+{
+    padding-left: 210px;
+    height: 400px;
+    width: 1100px;
+    border-radius: 20px;
+    height: 600px;
+    border-radius: 20px;
+    padding-top: 25px;
+
+    
+}
+
+.content1
+{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 41px;
+    font-weight: 400;
+    padding-left: 320px;
+    padding-top: 57px;
+}
+.content2
+{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 41px;
+    font-weight: 400;
+    padding-left: 346px;
+    padding-top: 37px;
+    padding-bottom: 90px;
+}
+
+.sections
+{
+    display: flex;
+    background-color: #000;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-bottom: 110px;
+    cursor: pointer;
+
+}
+.section1
+{   border-radius: 28px;
+    background-color:#dccbba;
+    width: 429px;
+    
+}
+.picture-box
+{
+    height: 290px;
+    width: 370px;
+    padding-top: 14px;
+    padding-bottom: 40px;
+    padding-left: 28px;
+    
+}
+.heading-text{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 43px;
+    line-height: 1.2;
+    font-weight: normal;
+    padding-left: 32px;
+
+}
+
+.section-paragraph
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 23.4px;
+    line-height: 28px;
+    padding-left: 30px;
+
+}
+
+.section-button
+{
+    height: 86.5PX;
+    width: 207PX;
+    border-radius: 10PX;
+    font-size:23px;
+    font-weight: 400;
+    margin-left: 19px;
+    border: none;
+    border:  2px solid rgb(28, 27, 27);
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 53px;
+}
+
+.section2
+{   border-radius: 18px;
+    background-color:#ffb700;
+    margin-left: 37px;
+    width: 429px;
+    
+
+    
+}
+
+.picture-box2
+{
+    height: 290px;
+    width: 376px;
+    padding-top: 14px;
+    padding-bottom: 40px;
+    padding-left: 27px;
+    
+}
+.section3
+{   border-radius: 18px;
+    background-color:#7d8524;
+    width: 430px;
+    margin-left: 36.8px;
+
+    
+}
+.picture-box3
+{
+    height: 290px;
+    width: 377.9px;
+    padding-top: 14px;
+    padding-bottom: 40px;
+    padding-left: 26px;
+    
+    
+}
+
+.body3
+{
+    background-color:fff8f2 ;
+    display: flex;
+    margin-bottom: 94px;
+
+
+}
+
+.body3-section1
+{
+  width: 80%;
+}
+.integretions-heading
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700px;
+    padding-left: 62px;
+    padding-top: 100px;
+}
+
+.body3-paragraph{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 400px;
+    padding-left: 60px;
+    padding-top: 30px;
+
+
+}
+.body3-section2
+{
+width: 41%;
+  padding-top:100px;
+  padding-right: 60px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-row-gap: 97px;    
+  grid-column-gap: 19px;
+  padding-left: px;
+}
+
+.logo-size
+{
+    width: 135px;
+}
+.logo-size-figma
+{
+    width: 110px;
+    padding-left: 11px;
+}
+.logo-size-wordpress
+{
+    width: 160px;
+
+}
+.logo-size-godaddy
+{
+    width: 160px;
+}
+.body4
+{
+    background: #000;
+    width: 100%;
+}
+
+.marqueeclass
+{
+
+}
+
+.body4-section1
+{
+    padding-top: 125px;
+}
+.heading-trusted
+{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+    color: #fff;
+    padding-left: 250px;
+}
+.heading-over
+{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+    color: #fff;
+    padding-left: 439px;
+}
+.floatter
+{
+   
+    display: flex;
+    margin-top: 60px;
+}
+.float1
+{
+    background: #f5e8de;
+    padding-left: 30px;
+    margin-left: 50px;
+    border-radius: 15px;
+    width:24px;
+    height: 560px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 40px; padding-left: 30px;
+    margin-left: 50px;
+    width:560px;
+    margin-top: 110px;
+    padding-right: 20px;
+    margin-bottom: 90px;
+
+}
+.floating-main-name
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    padding-right: 50px;
+}
+.floating-sub-name
+{
+   
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 23px;
+}
+
+.splash-pic
+{
+    padding-top: 70px;
+    width: 140px;
+    padding-bottom: 50px;
+    
+
+}
+.float2
+{
+    background: #a589d6;
+    padding-left: 30px;
+    border-radius: 15px;
+    width: 398px;
+    height: 670px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 40px; 
+    padding-left: 30px;
+    margin-left: 67px;
+}
+.california-pic
+{
+    padding-top: 70px;
+    width: 140px;
+    padding-bottom: 50px;
+}
+
+.float3
+{
+    background: #4a8076;
+    padding-left: 30px;
+    margin-left: 50px;
+    border-radius: 15px;
+    width:400px;
+    height: 420px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 60px; padding-left: 30px;
+    margin-left: 50px;
+    margin-top: 110px;
+   
+}
+.casca-pic
+{
+    padding-top: 70px;
+    width: 140px;
+    padding-bottom: 50px;
+}
+.float4
+{
+    background-color: #f5e8de;
+    padding-left: 30px;
+    margin-left: 50px;
+    border-radius: 15px;
+    width: 585px;
+    height: 700px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 40px; padding-left: 30px;
+    margin-left: 50px;
+    margin-bottom: 90px;
+    
+
+}
+.RiteAid-pic
+{
+    padding-top: 70px;
+    width: 140px;
+    padding-bottom: 50px;
+
+}
+.float5
+{
+    background-color: #a589d6;
+    padding-left: 30px;
+    margin-left: 50px;
+    border-radius: 15px;
+    height: 560px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 40px; padding-left: 30px;
+    margin-left: 50px;
+    width:400px;
+    margin-top: 110px;
+}
+.scribeWise-pic
+{
+    padding-top: 70px;
+    width: 140px;
+    padding-bottom: 50px;
+
+}
+.float6
+{
+    background-color: #4a8076;
+    padding-left: 30px;
+    margin-left: 50px;
+    border-radius: 15px;
+    width:400px;
+    height: 560px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 40px; padding-left: 30px;
+    margin-left: 50px;
+    
+}
+.yeti-pic
+{
+    padding-top: 70px;
+    width: 140px;
+    padding-bottom: 50px;
+
+}
+
+.arrow-button
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-bottom: 150px;
+    
+    
+}
+
+.right-arrow-button
+{
+    height: 20px;
+    width: 40px;
+    padding-left: 30px;
+}
+
+.after-floatter-paragraph
+{
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 79px;
+    font-weight: 400px;
+    padding-left: 120px;
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+
+.footer
+{
+    background: #23313b;
+    
+   
+}
+.footer-flex
+{
+    display: flex;
+}
+
+.vimeo-logo-footer
+{
+    width: 110px;
+    padding-top: 50px;
+    margin-left: 60px;
+
+}
+
+
+.footer-content
+{
+    padding-left: 100px;
+    padding-top: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+    column-span: 20px;
+    line-height: 1.8;
+    margin-bottom: 120px;
+   
+
+}
+.footer-content-title
+{
+    color: #677178;
+    font-weight: bold;
+    line-height: 2.5;
+    
+}
+.footer-end-copyright
+{
+    padding-left: 47px;
+    padding-bottom: 60px;
+    font-size: 16px;
+
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.footer-language
+{
+   padding-left: 590px;
+   color: white;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.box-input
+{
+    width: 110px;
+}
+.option{
+    position: relative;
+    left: 669px;
+    bottom: 18px;
+}
